@@ -1,0 +1,31 @@
+:root{
+  --bg1:#070A14;
+  --bg2:#0B1230;
+  --card: rgba(255,255,255,.06);
+  --card2: rgba(255,255,255,.10);
+  --border: rgba(255,255,255,.10);
+  --txt:#F3F5FF;
+  --muted: rgba(243,245,255,.70);
+
+  --a:#6C8CFF;
+  --b:#8E63FF;
+  --c:#FF4FD8;
+
+  --ok:#48F3A2;
+  --danger:#FF6B6B;
+
+  --r: 18px;
+  --shadow: 0 25px 70px rgba(0,0,0,.45);
+}
+
+/* MODE CLAIR */
+html[data-theme="light"]{
+  --bg1:#f6f7ff;
+  --bg2:#e9ecff;
+  --card: rgba(0,0,0,.04);
+  --card2: rgba(0,0,0,.06);
+  --border: rgba(0,0,0,.10);
+  --txt:#0f1222;
+  --muted: rgba(15,18,34,.70);
+  --shadow: 0 25px 70px rgba(0,0,0,.15);
+}

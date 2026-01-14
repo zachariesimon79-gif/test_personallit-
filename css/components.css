@@ -1,0 +1,68 @@
+.card{
+  background: linear-gradient(180deg, var(--card2), var(--card));
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 18px;
+}
+
+/* TITRES */
+.result-title{
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+
+/* BOUTONS */
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: linear-gradient(135deg, rgba(108,140,255,.95), rgba(142,99,255,.95));
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+  box-shadow: 0 18px 40px rgba(108,140,255,.18);
+}
+.btn:hover{
+  transform: translateY(-2px) scale(1.01);
+  filter: brightness(1.06);
+  box-shadow: 0 22px 60px rgba(108,140,255,.28);
+}
+.btn:active{ transform: translateY(0) scale(.98); }
+
+/* INPUTS */
+.input, input[type="text"], input[type="password"]{
+  width:100%;
+  padding: 12px 14px;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(0,0,0,.22);
+  color: var(--txt);
+  outline:none;
+  transition: border .2s ease, box-shadow .2s ease;
+}
+.input:focus, input:focus{
+  border-color: rgba(108,140,255,.6);
+  box-shadow: 0 0 0 4px rgba(108,140,255,.18);
+}
+
+/* ALERT */
+.alert{
+  max-width:1000px;
+  margin: 10px auto;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,107,107,.4);
+  background: rgba(255,107,107,.12);
+  color: #ffd5d5;
+}
